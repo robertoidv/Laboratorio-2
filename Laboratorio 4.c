@@ -9,3 +9,4 @@ void main(){
 	unArbol=*creaArbol(nombreArchivoArbol);
 	//imprimirArchivo(nombreArchivoArbol);
 }
+

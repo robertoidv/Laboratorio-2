@@ -38,9 +38,10 @@ Arbol *CrearNodo(char caracter){
 }
 //----------------------------------------------------------------------
 Arbol *serializa(FILE *archivo){
-	char caracter, pausa;
+	char caracter;
 	caracter=fgetc(archivo);
-	printf("%c",caracter);
+	printf("%c\n",caracter);
+	system("pause");
 		if(caracter=='N'){
 			return NULL;
 		}else{

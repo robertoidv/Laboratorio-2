@@ -7,5 +7,5 @@ void main(){
 		return;
 	}
 	unArbol = *creaArbol(nombreArchivoArbol);
-	//muestraArbolEnTerminal(Arbol unArbol);
+	muestraArbolEnTerminal(&unArbol);
 }

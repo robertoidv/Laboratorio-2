@@ -108,7 +108,6 @@ int muestraArbolEnTerminal(Arbol *unArbol){
 							//mientras que niveles es otro indice recorre los niveles que tiene el arbol
 							//nodosEnNivel se usa porque no me deja usar el pow en un if
 							//nodoActual es un indice que recorre TODOS los nodos actuales
-
 	while(nivelActual<h+2){
 			nodosEnNivel=pow(2,nivelActual);
 			contador=0;
